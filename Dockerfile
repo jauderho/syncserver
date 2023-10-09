@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM python:3.12-alpine
 
 RUN addgroup -g 1001 app \
     && adduser -u 1001 -S -D -G app -s /usr/sbin/nologin app
